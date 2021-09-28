@@ -12,7 +12,7 @@ class _LoginScreenState extends State<LoginScreen> {
   bool showspinner = false;
   final _auth = FirebaseAuth.instance;
   String email, password;
-  FirebaseAuthException errormessage1;
+  FirebaseAuthException    errormessage1;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
