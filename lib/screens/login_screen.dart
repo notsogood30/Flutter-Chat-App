@@ -106,7 +106,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   child: MaterialButton(
                     onPressed: () async {
                       setState(() {
-                        showspinner = true;
+                        showspinner =      true;
                       });
                       try {
                         final user = await _auth.signInWithEmailAndPassword(
